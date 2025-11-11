@@ -1,7 +1,7 @@
 <?php
-$dsn = "pgsql:host=ep-xxxxxx.eu-central-1.aws.neon.tech;port=5432;dbname=your_db_name;sslmode=require";
-$user = "your_user";
-$password = "your_password";
+$dsn = "pgsql:host=https://app.netlify.com/projects/stately-dango-e8c800;port=5432;dbname=main;sslmode=require";
+$user = "shailesh";
+$password = "";
 
 try {
     $pdo = new PDO($dsn, $user, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
